@@ -58,3 +58,60 @@ node_modules/
 *.whl
 
 local_settings.py
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# FastAPI
+.fastapi_cache/
+
+# Redis dump
+dump.rdb
+
+# Database
+*.db
+*.sqlite
+*.sqlite3-journal
+
+# Secrets and credentials
+secrets/
+*.pem
+*.key
+*.crt
+credentials.json
+token.json
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+kubeconfig
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# MCP
+.mcp/
+
+# OS specific
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Development
+.editorconfig
+.python-version
+
